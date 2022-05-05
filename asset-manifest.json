@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4219a162.css",
+    "main.js": "/portfolio/static/js/main.02cafbe6.js",
+    "static/media/recipesearchsave1.png": "/portfolio/static/media/recipesearchsave1.96b23cd4df77e451329a.png",
+    "static/media/artistdisplay3.png": "/portfolio/static/media/artistdisplay3.7e83c9108e58bca6b59d.png",
+    "static/media/artistdisplay1.png": "/portfolio/static/media/artistdisplay1.2b03fe0b623dfd2f32d4.png",
+    "static/media/artistdisplay2.png": "/portfolio/static/media/artistdisplay2.5978fc5f97ada600840c.png",
+    "static/media/recipesearchsave4.png": "/portfolio/static/media/recipesearchsave4.e4c733d51dfdbef25428.png",
+    "static/media/recipesearchsave2.png": "/portfolio/static/media/recipesearchsave2.da6536989073a43a866e.png",
+    "static/media/recipesearchsave5.png": "/portfolio/static/media/recipesearchsave5.f153229fd7c394d2a4e7.png",
+    "static/media/recipesearchsave3.png": "/portfolio/static/media/recipesearchsave3.a97f4aa3289c9f8d179a.png",
+    "static/media/reactlogo.png": "/portfolio/static/media/reactlogo.8a6fc0a24a800d1e0f4a.png",
+    "static/media/mongodblogo.png": "/portfolio/static/media/mongodblogo.dd552a55b534b0083148.png",
+    "static/media/githublogo.png": "/portfolio/static/media/githublogo.dea49d48a3e47344edfe.png",
+    "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.9c212d7e34e8bddb586d.jpg",
+    "static/media/expresslogo.png": "/portfolio/static/media/expresslogo.cca64e0f360897258ecb.png",
+    "static/media/linkedinlogo.png": "/portfolio/static/media/linkedinlogo.60d6ef8f044bc4f647dd.png",
+    "static/media/csslogo.png": "/portfolio/static/media/csslogo.84de5dab5fab27f4161c.png",
+    "static/media/totopicon.jpg": "/portfolio/static/media/totopicon.c18686c4e3231477b4d0.jpg",
+    "static/media/nodelogo.png": "/portfolio/static/media/nodelogo.8e341cc00e4ec40c6a27.png",
+    "static/media/javascriptlogo.png": "/portfolio/static/media/javascriptlogo.266bd9fb2663dcc057b4.png",
+    "index.html": "/portfolio/index.html",
+    "main.4219a162.css.map": "/portfolio/static/css/main.4219a162.css.map",
+    "main.02cafbe6.js.map": "/portfolio/static/js/main.02cafbe6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4219a162.css",
+    "static/js/main.02cafbe6.js"
+  ]
+}
