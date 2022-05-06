@@ -7,7 +7,6 @@ function App() {
     <BrowserRouter>
     <div className='app'>
       <Routes>
-        <Route path = '/' element={<Home/>}/>
         <Route path = '/portfolio' element={<Portfolio/>}/>
       </Routes>
     </div>

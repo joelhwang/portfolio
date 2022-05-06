@@ -1,19 +1,15 @@
-import { useNavigate } from 'react-router-dom'
+import { Link } from 'react-scroll';
 
 const Home = () => {
-    const navigate = useNavigate();
-
-    const aboutLink = () =>{
-        navigate('/portfolio')
-    }
-
     return ( 
         <div class = 'welcome-text'>
             <p className='p1'>Hello, I'm <span>Joel</span></p>
             <p className='p2'>Welcome to my Portfolio</p>
-            <p className = 'about-container'>
-                <p className='about-link' onClick={aboutLink}>About Me</p>
-            </p>
+            <Link to='about-component' spy={true} smooth={true}>
+                <p className = 'about-container'>
+                    <p className='about-link'>About Me</p>
+                </p>
+            </Link>
         </div>
      );
 }

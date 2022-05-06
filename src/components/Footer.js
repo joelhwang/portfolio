@@ -1,10 +1,11 @@
 import githubLogo from '../images/githublogo.png'
 import linkedinLogo from '../images/linkedinlogo.png'
+import totopicon from '../images/totopicon.jpg'
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return ( 
         <div className='footer'>
-            
             <footer>
                 <section className='footer-logos'>
                     <a href='https://github.com/joelhwang' target='_blank' rel='noopener noreferrer'>
