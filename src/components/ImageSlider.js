@@ -4,7 +4,6 @@ const ImageSlider = ({imageArr, numImages}) => {
     
     const [currentImg, setCurrentImg] = useState(imageArr[0]);
     const [counter, setCounter] = useState(0);
-    let imageList = [];
 
     useEffect(() =>{
         iterateImg();
@@ -30,6 +29,7 @@ const ImageSlider = ({imageArr, numImages}) => {
         setCurrentImg(imageArr[counter]);
     }
 
+    //to implement in the future: dots on bottom of image slider for another indication of currently viewed image
     // const renderDots = () =>{
         
     //     for(let i=1;i<=numImages+1;i++){
