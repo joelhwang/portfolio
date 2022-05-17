@@ -12,34 +12,13 @@ const Skills = () => {
         <h1>Skills</h1>
         <hr />
         <section className='logos'>
-            <section>
-                <img src={htmlLogo}/>
-                <p>HTML</p>
-            </section>
-            <section>
-                <img src={cssLogo}/>
-                <p>CSS</p>
-            </section>
-            <section>
-                <img src={javascriptLogo}/>
-                <p>JavaScript</p>
-            </section>
-            <section>
-                <img src={reactLogo} />
-                <p>React</p>
-            </section>
-            <section>
-                <img src={mongodbLogo}/>
-                <p>MongoDB</p>
-            </section>
-            <section>
-                <img src={nodeLogo}/>
-                <p>Node.js</p>
-            </section>
-            <section>
-                <img src={expressLogo} />
-                <p>Express.js</p>
-            </section>
+            <img src={htmlLogo} alt='HTML' title='HTML'/>
+            <img src={cssLogo} alt='CSS' title='CSS'/>
+            <img src={javascriptLogo} alt='JavaScript' title='JavaScript'/>
+            <img src={reactLogo} alt='React' title='React'/>
+            <img src={mongodbLogo} alt='MongoDB' title='MongoDB'/>
+            <img src={nodeLogo} alt='Node.js' title='Node.js'/>
+            <img src={expressLogo} alt='Express.js' title='Express.js'/>
         </section>
     </div> );
 }

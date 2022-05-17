@@ -1,14 +1,16 @@
 import { useState, useEffect } from 'react'
 
 const ImageSlider = ({imageArr, numImages}) => {
-    
     const [currentImg, setCurrentImg] = useState(imageArr[0]);
     const [counter, setCounter] = useState(0);
 
     useEffect(() =>{
+        //Increment or decrement image only after counter changes and not in the handleClick.
+        //This is because setState is asynchronous 
         iterateImg();
     }, [counter]);
     
+    //adjust counter when clicking directional keys
     const handleClick = (direction) => {
         if(direction === 1 && counter < numImages){
             console.log('next');

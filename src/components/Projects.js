@@ -10,9 +10,11 @@ import recipesearchsave5 from '../images/recipesearchsave5.png'
 
 
 const Projects = () => {
+    //arrays of images for image slider are hard coded
     const artistDisplayArr = [artistdisplay1, artistdisplay2, artistdisplay3];
     const recipeSearchArr = [recipesearchsave1, recipesearchsave2, recipesearchsave3, recipesearchsave4, recipesearchsave5];
 
+    //Link to live app and github repo
     const handleLink = (url) =>{
         window.open(url);
     }

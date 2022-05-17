@@ -8,10 +8,47 @@
   overflow-x: hidden
 }
 
-.body{
-  max-width: 50%;
-  margin: 0 auto;
+@media only screen and (min-width: 600px) {
+  .body {
+    max-width: 50%;
+    margin: auto;
+  }
+  .contact-form{
+    width: 40%;
+    margin-top: 1.5em;
+    display:flex;
+    flex-direction: column;
+  }
+  .footer-logos img{
+    background: none;
+    display: inline;
+    width: 5%;
+    height: auto;
+  } 
 }
+
+
+@media only screen and (max-width: 600px) {
+  .body{
+    max-width: 100%;
+    margin: auto;
+    padding: 0 10px; 
+  }
+  .contact-form{
+    width: 70%;
+    margin-top: 1.5em;
+    display:flex;
+    flex-direction: column;
+  }
+  .footer-logos img{
+    background: none;
+    display: inline;
+    width: 15%;
+    height: auto;
+  } 
+}
+
+
 
 .welcome-text{
   /* position:fixed; */
@@ -33,14 +70,10 @@
   0%,
   25% {
     opacity: 0;
-    transform: translateX(0%);
-    left: 0%;
   }
   75%,
   100% {
     opacity: 1;
-    transform: translateX(39%);
-    left: 100%;
   }
 }
 
@@ -48,14 +81,10 @@
   0%,
   25% {
     opacity: 0;
-    /* transform: translateX(0%);
-    left: 0%; */
   }
   75%,
   100% {
     opacity: 1;
-    /* transform: translateX(45%);
-    left: 100%; */
   }
 }
 
@@ -63,18 +92,15 @@
   0%,
   25% {
     opacity: 0;
-    transform: translateX(0%);
-    left: 0%;
   }
   75%,
   100% {
     opacity: 1;
-    transform: translateX(-21%);
-    left: 100%;
   }
 }
 
 .p1{
+  text-align: center;
   background: none;
   color: rgb(241, 241, 241);
   font-size: 2em;
@@ -91,7 +117,7 @@
 
 .p2{
   background: none;
-  text-align: end;
+  text-align: center;
   font-size: 3em;
   color: rgb(206, 206, 206);
   font-size: 3em;
@@ -162,18 +188,22 @@ hr{
 .self-intro{
   margin-top: 2em;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .self-intro img{
   border-radius: 6em;
-  width:70%;
-  height: 70%;
+  /* width:20%;
+  height: 20%; */
 }
 .self-intro p{
+  max-width: 70%;
   font-size: 1.2rem;
-  display: flex;
-  align-items: center;
-  margin-left: 4em;
+  margin-top: 0.5em;
+  margin-left: 2em;
+
 }
 
 .logos{
@@ -184,22 +214,13 @@ hr{
   flex-wrap: wrap;
 }
 
-.logos section{
-  margin-left: 1em;
+.logos img{
+  margin: 0.5em 1em;
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 10%;
   height: 10%;
-}
-
-.logos p{
-  margin-top: 0.5em;
-  text-align: center;
-
-}
-.logos img{
-  width: 100%;
-  height: 100%;
 }
 
 .projects{
@@ -315,13 +336,6 @@ hr{
   background-color: rgb(92, 93, 206);
 }
 
-.contact-form{
-  width: 40%;
-  margin-top: 1.5em;
-  display:flex;
-  flex-direction: column;
-}
-
 #email{
   padding: 0.5em 0.5em;
   background-color: rgb(65, 65, 65);
@@ -390,13 +404,6 @@ footer a{
   background: none;
   margin: 0 1em;
 }
-
-.footer-logos img{
-  background: none;
-  display: inline;
-  width: 5%;
-  height: auto;
-} 
 
 .scroll-top{
   display:block;
