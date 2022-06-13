@@ -7,12 +7,14 @@ import recipesearchsave2 from '../images/recipesearchsave2.png'
 import recipesearchsave3 from '../images/recipesearchsave3.png'
 import recipesearchsave4 from '../images/recipesearchsave4.png'
 import recipesearchsave5 from '../images/recipesearchsave5.png'
-
+import portfolio1 from '../images/portfolio1.png'
+import portfolio2 from '../images/portfolio2.png'
 
 const Projects = () => {
     //arrays of images for image slider are hard coded
     const artistDisplayArr = [artistdisplay1, artistdisplay2, artistdisplay3];
     const recipeSearchArr = [recipesearchsave1, recipesearchsave2, recipesearchsave3, recipesearchsave4, recipesearchsave5];
+    const portfolioArr = [portfolio1, portfolio2];
 
     //Link to live app and github repo
     const handleLink = (url) =>{
@@ -33,6 +35,7 @@ const Projects = () => {
                     <button className='project-link' onClick = {()=>{handleLink('https://github.com/joelhwang/ArtistDisplay/')}}>View on GitHub</button>
                 </section>
             </section>
+
             <hr className='proj-divider'/>
             <section className = 'project-container'>
                 <ImageSlider numImages={4} imageArr={recipeSearchArr}/>
@@ -43,6 +46,17 @@ const Projects = () => {
                     <p>Built with React, Node.js, Express.js, and MongoDB.</p>
                     <button className='project-link' onClick = {()=>{handleLink('https://recipesearchsave.herokuapp.com/')}}>Visit Live App</button>
                     <button className='project-link' onClick = {()=>{handleLink('https://github.com/joelhwang/recipesearchsave/')}}>View on GitHub</button>
+                </section>
+            </section>
+            
+            <hr className='proj-divider'/>
+            <section className = 'project-container'>
+                <ImageSlider numImages={1} imageArr={portfolioArr}/>
+                <section>
+                    <h1>Project #3: This page - Portfolio</h1>
+                    <p>Responsive app for displaying personal information and projects.</p>
+                    <p>Built with React and deployed on GitHub pages.</p>
+                    <button className='project-link' onClick = {()=>{handleLink('https://github.com/joelhwang/portfolio/')}}>View on GitHub</button>
                 </section>
             </section>
 

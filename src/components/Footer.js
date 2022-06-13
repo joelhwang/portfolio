@@ -16,7 +16,7 @@ const Footer = () => {
                     </a>
                 </section>
                 <p>
-                    Made by Joel Hwang - Code available on <a href="https://github.com/joelhwang/portfolio-site" target='_blank' rel='noopener noreferrer'>GitHub</a>
+                    Made by Joel Hwang - Code available on <a href="https://github.com/joelhwang/portfolio" target='_blank' rel='noopener noreferrer'>GitHub</a>
                 </p>
             </footer>
         </div>
