@@ -8,7 +8,9 @@ const About = () => {
             <section className='self-intro'>
                 <img src={profilePic}/>
                 <p>
-                    Hi, my name is Joel Hwang! I am a web-developer looking to further my skills in front-end and full-stack development.
+                    Hi, my name is Joel Hwang! I graduated from Cal Poly Pomona with a bachelor's degree in computer science and chose 
+                    to pursue web development as a career. I am primarily interested in front-end development but I also enjoy creating
+                    full-stack applications.
                     I delved into this particular field of programming due to the creativity that it allows. Discovering new technologies 
                     to expand on that creativity keeps me interested. 
                 </p>
