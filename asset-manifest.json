@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.95d1a0e4.css",
-    "main.js": "/portfolio/static/js/main.4b7965f1.js",
+    "main.js": "/portfolio/static/js/main.87f6ac06.js",
     "static/media/recipesearchsave1.png": "/portfolio/static/media/recipesearchsave1.96b23cd4df77e451329a.png",
     "static/media/artistdisplay3.png": "/portfolio/static/media/artistdisplay3.7e83c9108e58bca6b59d.png",
     "static/media/artistdisplay1.png": "/portfolio/static/media/artistdisplay1.2b03fe0b623dfd2f32d4.png",
@@ -15,7 +15,7 @@
     "static/media/githublogo.png": "/portfolio/static/media/githublogo.dea49d48a3e47344edfe.png",
     "static/media/profilepic.jpg": "/portfolio/static/media/profilepic.9c212d7e34e8bddb586d.jpg",
     "static/media/portfolio2.png": "/portfolio/static/media/portfolio2.e72e65e9b243d7e71eb2.png",
-    "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.32720294ba8855e9e091.png",
+    "static/media/portfolio1.png": "/portfolio/static/media/portfolio1.9e06e68c3fc381143584.png",
     "static/media/expresslogo.png": "/portfolio/static/media/expresslogo.cca64e0f360897258ecb.png",
     "static/media/linkedinlogo.png": "/portfolio/static/media/linkedinlogo.60d6ef8f044bc4f647dd.png",
     "static/media/csslogo.png": "/portfolio/static/media/csslogo.84de5dab5fab27f4161c.png",
@@ -24,10 +24,10 @@
     "static/media/javascriptlogo.png": "/portfolio/static/media/javascriptlogo.266bd9fb2663dcc057b4.png",
     "index.html": "/portfolio/index.html",
     "main.95d1a0e4.css.map": "/portfolio/static/css/main.95d1a0e4.css.map",
-    "main.4b7965f1.js.map": "/portfolio/static/js/main.4b7965f1.js.map"
+    "main.87f6ac06.js.map": "/portfolio/static/js/main.87f6ac06.js.map"
   },
   "entrypoints": [
     "static/css/main.95d1a0e4.css",
-    "static/js/main.4b7965f1.js"
+    "static/js/main.87f6ac06.js"
   ]
 }
